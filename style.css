@@ -6,3 +6,17 @@
     text-align: center;
     border: 2px solid;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 75px 75px 75px;
+    grid-gap: 5px 20px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* same as above
+       grid-column: 1 / 4; */
+}
